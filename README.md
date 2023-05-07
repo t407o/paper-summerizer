@@ -114,7 +114,12 @@ see https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/
 see https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
 
 ## 4. Set environmental variables
-Now that you have all of `OPENAI_API_KEY`, `DISCORD_BOT_TOKEN` and `DISCORD_CHANNEL_ID`, set it to environment variables! Well done!
+Now that you have all of `OPENAI_API_KEY`, `DISCORD_BOT_TOKEN` and `DISCORD_CHANNEL_ID`, set it to environment variables!  
+After that you can run the script... *Congrats*!!
+```shell
+python batch.py
+```
+**NOTE**: you should set at least 1 search keyword in `search_keywords.txt` to execute it correctly
 
 ## (Optional) Scheduling
 Scheduling the execution is the main use case of this script. 
