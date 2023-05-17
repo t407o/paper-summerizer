@@ -18,9 +18,9 @@ class DiscordMessenger(Messenger):
     def __init__(self, bot_token, channel_id, discord_notifiee_name=None):
         self.client = DiscordApiClient(bot_token)
         self.channel_id = int(channel_id)
-
-        if discord_notifiee_name:
-            self.user_id = self.getUserIdBy(discord_notifiee_name)
+        self.user_id = (
+            self.getUserIdBy(discord_notifiee_name) if discord_notifiee_name else None
+        )
 
     def send(self, message):
         self.client.post(f"/channels/{self.channel_id}/messages", message)
