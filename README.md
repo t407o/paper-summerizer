@@ -88,24 +88,8 @@ BATCH_SIZE = 10
 3. Copy discord channel id
 4. Set environment variables
 
-## 1. Create discord app & configure
-### 1-1. Create new app  
-(see https://discord.com/developers/docs/getting-started)
-
-### 1-2. Grant the `SERVER MEMBERS INTENT` privillage  
-![image](https://user-images.githubusercontent.com/57845734/236690868-1558e43f-ab01-46d2-8755-798c71df7c5e.png)
-
-### 1-3. Generate invitation url
-![image](https://user-images.githubusercontent.com/57845734/236691195-f02e3eb5-560e-4521-b238-e3ebe458f06f.png)
-- SCOPES > bot
-- BOT PERMISSIONS > `Send Messages` + `Moderate Members` 
-
-### 1-4. Invite the bot to your server
-Open the invitation url and invite the bot to your server.
-![image](https://user-images.githubusercontent.com/57845734/236691395-e214d408-742e-4f68-89f5-5fc89e51f0e1.png)
-
-### 1-5. Copy the bot token
-![image](https://user-images.githubusercontent.com/57845734/236691725-18795e7e-0d25-4a89-acf3-7b44fabd6ef2.png)
+## 1. Create discord app
+see https://gist.github.com/t407o/ab8d7874350bd4c60bad8522196f185b
 
 ## 2. Copy OpenAI API token
 see https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/
